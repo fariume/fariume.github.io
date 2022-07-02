@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(images/pink.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: lightpink;
+    outline: black;
+  }
+  
+  li {
+    float: left;
+    outline: 1cm;
+    outline-color: black;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: palevioletred; 
+}
+
+.h1 {
+    font-size: xx-large;
+    font-style:italic;
+    color:rgba(211, 106, 209, 0.946);
+}
+
+footer{
+  font-family: 'Quicksand';
+  text-align: center;
+}
+
+.section{
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+  width: 60%;
+  margin: -4rem auto 0 auto;
+}
+
+.section img{
+  width: 333.32px;
+  height: 250px;
+  object-fit: fill;
+}
+
+text{
+  font-family: 'Quicksand';
+}

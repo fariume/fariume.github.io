@@ -1,0 +1,116 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url(images/pink.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 100vh;
+}
+
+nav{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  padding: 10px 90px;
+  box-sizing: border-box;
+  font-family: 'Quicksand', sans-serif;
+  background:rgba(255, 0, 242, 0.395)
+  border-bottom 1px solid #fff;
+}
+
+nav .logo{
+  padding: 20px 40px;
+  height: 20px;
+  float: left;
+  font-size: 30px;
+  font-weight: bold;
+  text-transform: lowercase;
+  color: rgb(152, 114, 151);
+}
+
+.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(255, 183, 207);
+  background-blend-mode: overlay;
+  outline: black;
+}
+
+li {
+  float: left;
+  outline: 0;
+  outline-color: black;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: rgb(255, 114, 161);
+}
+
+.h1{
+  font-family: 'Abril Fatface';
+  font-size: xx-large;
+  color: rgba(187, 107, 159, 0.946);
+}
+
+.img2{
+  object-fit: cover;
+}
+
+.text1{
+  font-family: 'The Nautigal';
+  color: palevioletred;
+  font-size:xx-large
+}
+
+.text2{
+  font-family: 'Bebas Neue';
+  color: palevioletred;
+}
+
+.text3{
+  font-family: 'Bebas Neue';
+  color: palevioletred;
+  font-size: 30px;
+}
+
+.text4{
+  font-family: 'Concert One';
+  color: rgb(189, 89, 122);
+}
+
+.text5{
+  font-family: 'Concert One';
+  color: rgb(204, 59, 107);
+}
+
+.text6{
+  font-family: 'Bebas Neue';
+  color: palevioletred;
+  font-size: 30px;
+}
+
+.text7{
+  font-family: 'Concert One';
+  color: rgb(204, 59, 107);
+}
+
+footer{
+  font-family: 'Quicksand';
+  text-align: center;
+}
